@@ -2,13 +2,13 @@
 
 My Voice App is a **Next.js + TypeScript** offline-capable voice assistant. It records voice input, transcribes speech **locally using Whisper WASM**, sends the transcribed text to **OpenAI’s Chat Completion API**, and then **converts the response back to speech locally using TTS (Text-to-Speech)** — all with minimal latency.
 
-> ✅ Works offline after initial load (except OpenAI API call)  
-> ✅ Built for speed – under 1.2s total response time target  
-> ✅ Perfect for PWAs and local-first AI applications
+>  Works offline after initial load (except OpenAI API call)  
+>  Built for speed – under 1.2s total response time target  
+>  Perfect for PWAs and local-first AI applications
 
 ---
 
-## 🚀 Features
+##  Features
 
 - 🎤 **Local Speech-to-Text** using `whisper.cpp` (WASM) in a Web Worker
 - 🧠 **OpenAI Chat Integration** for intelligent responses
@@ -19,7 +19,7 @@ My Voice App is a **Next.js + TypeScript** offline-capable voice assistant. It r
 
 ---
 
-## 📦 Tech Stack
+##  Tech Stack
 
 | Tech              | Usage                            |
 |-------------------|----------------------------------|
@@ -33,7 +33,7 @@ My Voice App is a **Next.js + TypeScript** offline-capable voice assistant. It r
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
 ### 1. Clone this repo
 
