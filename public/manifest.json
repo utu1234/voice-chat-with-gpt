@@ -1,0 +1,21 @@
+{
+  "name": "My Voice App",
+  "short_name": "VoiceApp",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#5b21b6",
+  "theme_color": "#8b5cf6",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
